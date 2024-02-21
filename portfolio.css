@@ -179,22 +179,38 @@ html {
   padding: 2.5rem;
   filter: grayscale(0);
   transition: all 1s;
-  animation: scaleImage 5s linear infinite;
+  /* animation: scaleImage 5s linear infinite; */
   border: 2px solid rgb(27, 209, 255);
   border: 5px solid rgb(45, 187, 168);
   border-radius: 8px;
   filter: drop-shadow(-5px -5px  rgb(0, 0, 0));
 
 }
+.user-image img:hover{
+  /* filter: grayscale(1);
+   */
+  transform: scale(1.2);
+  cursor: pointer;
+}
+@keyframes scaleImage {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
 
 .user-image img {
   z-index: -1;
   height: 350px;
   width: 345px;
   object-fit: cover;
-  object-fit: contain;
-  box-shadow: 30px 30px 11000px rgb(45, 185, 195);
+  transition: all 1s ease-in-out;
+    /* animation: scaleImage 5s linear infinite; */
+
+  /* object-fit: contain; */
+  /* box-shadow: 30px 30px 11000px rgb(26, 27, 33); */
   /* filter: drop-shadow(-3px -0.5px  rgb(95, 13, 13)); */
+  /* scale: 2; */
+  
 
 }
 
