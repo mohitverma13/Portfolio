@@ -42,14 +42,14 @@ html {
 
 .logo {
   width: 60px;
-  filter: drop-shadow( -1px -2px  rgb(0, 0, 0));
+  filter: drop-shadow(-1px -2px rgb(0, 0, 0));
 
 }
 
 .logotext {
   margin-top: 2rem;
   font-size: 28px;
-    filter: drop-shadow(-1px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-1px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -63,7 +63,7 @@ html {
   text-decoration: none;
   color: rgb(255, 255, 255);
   scroll-behavior: smooth;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -95,7 +95,7 @@ html {
   bottom: 13%;
   left: -5%;
   position: absolute;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -109,7 +109,7 @@ html {
   font-size: 35px;
   font-weight: 500;
   color: #ced3d6;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -129,7 +129,7 @@ html {
   width: 70%;
   font-weight: 500;
   color: #f9f9f9;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -183,20 +183,30 @@ html {
   border: 2px solid rgb(27, 209, 255);
   border: 5px solid rgb(45, 187, 168);
   border-radius: 8px;
-  filter: drop-shadow(-5px -5px  rgb(0, 0, 0));
+  filter: drop-shadow(-5px -5px rgb(0, 0, 0));
 
 }
-.user-image img:hover{
+
+.user-image img:hover {
   /* filter: grayscale(1);
    */
   transform: scale(1.2);
   cursor: pointer;
 }
+
 @keyframes scaleImage {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
   }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 .user-image img {
   z-index: -1;
@@ -204,13 +214,13 @@ html {
   width: 345px;
   object-fit: cover;
   transition: all 1s ease-in-out;
-    /* animation: scaleImage 5s linear infinite; */
+  /* animation: scaleImage 5s linear infinite; */
 
   /* object-fit: contain; */
   /* box-shadow: 30px 30px 11000px rgb(26, 27, 33); */
   /* filter: drop-shadow(-3px -0.5px  rgb(95, 13, 13)); */
   /* scale: 2; */
-  
+
 
 }
 
@@ -230,7 +240,7 @@ html {
   font-size: 70px;
   text-align: center;
   padding-top: 30px;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -294,7 +304,7 @@ html {
   color: white;
   z-index: 1;
   display: none;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -323,7 +333,7 @@ html {
   z-index: 1;
   gap: 1em;
   transition: all 0.4s;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -479,7 +489,7 @@ html {
   }
 }
 
-@media (max-width: 740px){
+@media (max-width: 740px) {
   .user-image {
     padding: 2.5rem;
     filter: grayscale(0);
@@ -488,10 +498,10 @@ html {
     border: 2px solid rgb(27, 209, 255);
     border: 5px solid rgb(45, 187, 168);
     border-radius: 8px;
-    filter: drop-shadow(-5px -5px  rgb(0, 0, 0));
-  
+    filter: drop-shadow(-5px -5px rgb(0, 0, 0));
+
   }
-  
+
   .user-image img {
     z-index: -1;
     height: 260px;
@@ -500,11 +510,12 @@ html {
     object-fit: contain;
     box-shadow: 30px 30px 11000px rgb(45, 185, 195);
     /* filter: drop-shadow(-3px -0.5px  rgb(95, 13, 13)); */
-  
+
   }
 
 }
-@media (max-width: 740px){
+
+@media (max-width: 740px) {
   .user-image {
     padding: 2.5rem;
     filter: grayscale(0);
@@ -513,11 +524,11 @@ html {
     border: 2px solid rgb(27, 209, 255);
     border: 5px solid rgb(45, 187, 168);
     border-radius: 8px;
-    filter: drop-shadow(-5px -5px  rgb(0, 0, 0));
+    filter: drop-shadow(-5px -5px rgb(0, 0, 0));
 
-  
+
   }
-  
+
   .user-image img {
     z-index: -1;
     height: 140px;
@@ -526,7 +537,7 @@ html {
     object-fit: contain;
     box-shadow: 30px 30px 11000px rgb(45, 185, 195);
     /* filter: drop-shadow(-3px -0.5px  rgb(95, 13, 13)); */
-  
+
   }
 
 }
@@ -635,7 +646,7 @@ html {
   right: -4%;
   position: absolute;
   color: #4c9191;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -673,7 +684,7 @@ html {
 .skills-logo {
   width: 70px;
   transition: all 0.5s;
-  filter: drop-shadow(-3px -4px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -4px rgb(0, 0, 0));
 
 }
 
@@ -687,7 +698,7 @@ html {
   font-style: bold;
   line-height: 40px;
   /* font-family: 'Permanent Marker', cursive; */
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -703,24 +714,26 @@ html {
   color: #882929;
 
 }
-@media (max-width: 1300px){
+
+@media (max-width: 1300px) {
   .skill-subheading {
     margin: top 1rem;
     width: 65%;
     text-align: justify;
     color: #882929;
-  
+
   }
 }
+
 .skill-subheading p {
   margin: 15px 0;
   font-family: "Baloo Bhaijaan 2", cursive;
   /* font-size: 20px; */
   font-family: 'Nanum Myeongjo', serif;
   color: rgb(0, 251, 255);
-  
+
   /* filter: blur(0px); */
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -737,26 +750,28 @@ html {
   font-size: 50px;
   font-style: bold;
   padding: 2rem;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
   color: white;
 
 }
-@media (max-width: 1300px){
+
+@media (max-width: 1300px) {
   .contact-heading {
     font-size: 50px;
     margin-top: 100px;
     font-style: bold;
     padding: 2rem;
-    filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+    filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
     color: rgb(61, 102, 148);
-  
+
   }
 }
+
 .contact-subheading {
   color: rgb(193, 243, 243);
   text-transform: capitalize;
   font-size: 20px;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -765,6 +780,7 @@ html {
   align-items: center;
   justify-content: center;
   margin-top: 25px;
+  flex-direction: column;
 }
 
 .form {
@@ -797,7 +813,7 @@ html {
   position: relative;
   left: 10px;
   border: 2px solid rgb(34, 33, 33);
-  
+
 }
 
 #name,
@@ -807,15 +823,28 @@ html {
   color: rgb(135, 143, 152);
   box-shadow: -5px -5px rgb(0, 0, 0);
 }
-
 #submit-btn {
   border: none;
   font-size: 1rem;
   margin: 0 auto;
   width: 24%;
-
-
 }
+
+#result {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  /* Default color for success */
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid green;
+  background-color: #e0ffe0;
+  display: none; /* Hidden initially */
+  border-radius: 5px;
+}
+
+
 
 footer {
   position: relative;
@@ -843,7 +872,7 @@ footer {
   color: #ffffff0e;
   user-select: none;
   font-size: 4em;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
   /* z-index: -1; */
 }
@@ -861,7 +890,7 @@ footer {
   padding: 10px;
   margin: auto;
   transition: all 0.6s ease-in-out;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 }
 
@@ -874,11 +903,12 @@ footer {
 .icon-wrapper {
   display: flex;
   gap: 25px;
-  filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
+  filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
 
 
 }
-@media (max-width: 643px){
+
+@media (max-width: 643px) {
   .links div a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -887,15 +917,17 @@ footer {
     padding: 0px;
     margin: auto;
     transition: all 0.6s ease-in-out;
-    filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
-  
+    filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
+
   }
-  .icon-wrapper i{
+
+  .icon-wrapper i {
     width: 5px;
     margin: 3px;
   }
 }
-@media (max-width: 653px){
+
+@media (max-width: 653px) {
   .links div a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -904,10 +936,11 @@ footer {
     padding: 0px;
     margin: auto;
     transition: all 0.6s ease-in-out;
-    filter: drop-shadow(-3px -0.5px  rgb(0, 0, 0));
-  
+    filter: drop-shadow(-3px -0.5px rgb(0, 0, 0));
+
   }
-  .icon-wrapper i{
+
+  .icon-wrapper i {
     width: 3px;
     margin: 1px;
   }
@@ -940,5 +973,5 @@ h4 {
 
 .textarea::placeholder {
   text-align: center;
-  
+
 }

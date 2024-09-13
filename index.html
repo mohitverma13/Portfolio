@@ -135,9 +135,11 @@
                             <img src="./images/stack/Vercel.svg" alt="" class="project-skill">
                         </div>
                         <h2 class="project-heading">PassOP</h2>
-                        <div class="project-subheading">Developed PassOP, a secure password manager: Designed and implemented a responsive user interface using React.js and
+                        <div class="project-subheading">Developed PassOP, a secure password manager: Designed and
+                            implemented a responsive user interface using React.js and
                             TailwindCSS.
-Enhanced data security: Integrated MongoDB for efficient and secure storage of user credentials
+                            Enhanced data security: Integrated MongoDB for efficient and secure storage of user
+                            credentials
                         </div>
                         <div class="btn-grp">
                             <div class="btn" id="Read-more">Read More</div>
@@ -216,11 +218,11 @@ Enhanced data security: Integrated MongoDB for efficient and secure storage of u
                     </p>
                     <p>
                         Tailwind CSS is a utility-first CSS framework for rapid web development.
-                        
+
                     </p>
                     <p>
                         React is a popular JavaScript library for building user interfaces.
-                        
+
                     </p>
                     <p>
                         MongoDB is a NoSQL database known for its flexibility and scalability.
@@ -287,76 +289,82 @@ Enhanced data security: Integrated MongoDB for efficient and secure storage of u
             </div>
             <!-- Form -->
             <div class="form-container">
-                <form action="" class="form" id="contactForm">
+                <form action="https://api.web3forms.com/submit" method="POST" class="form" id="contactForm">
+                    <input type="hidden" name="access_key" value="18ce6cad-2756-43fb-b8e7-3a137cefabdf">
+
                     <div class="formfield-container">
-                        <input type="text" name="name" id="name" placeholder="Enter your Name" class="formfield ">
-                        <input type="email" name="name" id="email" placeholder="Enter your email" class="formfield">
-                        <input type="text" name="subject" id="subject" placeholder="Enter your subject"
+                        <input type="text" name="name" id="name" placeholder="Enter your Name" class="formfield">
+                        <input type="email" name="email" id="email" placeholder="Enter your Email" class="formfield">
+                        <input type="text" name="subject" id="subject" placeholder="Enter your Subject"
                             class="formfield">
 
                         <textarea name="message" id="message" cols="30" rows="10" class="textarea"
                             placeholder="Enter your Message here"></textarea>
                     </div>
-                    <button type="submit" class=" btn buttton-send-message" id="submit-btn">Send Message <i
-                            class="submit-icon fa-solid fa-paper-plane"></i></button>
+
+                    <button type="submit" class="btn button-send-message" id="submit-btn">
+                        Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                    </button>
                 </form>
+
+                <!-- Result Message -->
+                <div id="result"></div>
             </div>
 
+
+            <!-- footer Section -->
+            <footer>
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="footer-faded-text">Mohit Kumar</div>
+                        <div class="links">
+                            <div>
+                                <a href="#project">Projects</a>
+                                <a href="#skills">Skills</a>
+                                <a href="#contactme">ContactMe</a>
+                            </div>
+                        </div>
+                        <div class="icon-wrapper">
+                            <a href="https://www.linkedin.com/in/mohitkumar1315/" target="_blank"><i
+                                    class="fa-brands fa-linkedin icon"></i></a>
+
+
+                            <a href="https://github.com/mohitverma13" target="_blank"><i
+                                    class="fa-brands fa-github icon"></i></a>
+
+                            <a href="https://www.instagram.com/gentle._.beast/" target="_blank"><i
+                                    class="fa-brands fa-instagram icon"></i></a>
+
+                            <a href="mailto:mohitverma8822@gmail.com" target="_blank"><i
+                                    class="fa-regular fa-envelope icon"></i></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
         </div>
 
-        <!-- footer Section -->
-        <footer>
-            <div class="container">
-                <div class="footer-wrapper">
-                    <div class="footer-faded-text">Mohit Kumar</div>
-                    <div class="links">
-                        <div>
-                            <a href="#project">Projects</a>
-                            <a href="#skills">Skills</a>
-                            <a href="#contactme">ContactMe</a>
-                        </div>
-                    </div>
-                    <div class="icon-wrapper">
-                        <a href="https://www.linkedin.com/in/mohitkumar1315/" target="_blank"><i
-                                class="fa-brands fa-linkedin icon"></i></a>
-
-
-                        <a href="https://github.com/mohitverma13" target="_blank"><i
-                                class="fa-brands fa-github icon"></i></a>
-
-                        <a href="https://www.instagram.com/gentle._.beast/" target="_blank"><i
-                                class="fa-brands fa-instagram icon"></i></a>
-
-                        <a href="mailto:mohitverma8822@gmail.com" target="_blank"><i
-                                class="fa-regular fa-envelope icon"></i></a>
-
-
-                    </div>
-
-                </div>
-            </div>
-        </footer>
-    </div>
-
-    <!-- Rolling Script -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-    <script>
-        var typeData = new Typed(".role", {
-            strings: [
-                "Full Stack Developer",
-                "Web Developer",
-                "UI-UX Designer",
-                "Backend Developer",
-                "Coder",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 80,
-            backDelay: 1000,
-        });
-    </script>
-    <script src="./javaScript.js"></script>
+        <!-- Rolling Script -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+        <script>
+            var typeData = new Typed(".role", {
+                strings: [
+                    "Full Stack Developer",
+                    "Web Developer",
+                    "UI-UX Designer",
+                    "Backend Developer",
+                    "Coder",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1000,
+            });
+        </script>
+        <script src="./javaScript.js"></script>
 </body>
 
 </html>
